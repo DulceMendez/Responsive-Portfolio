@@ -1,4 +1,4 @@
-/* Basic-Portfolio-2 */
+/* Responsive-Portfolio */
 
 body {
   font-family: "Arial","Helvetica Neue", sans-serif;
@@ -217,4 +217,67 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/*desktop */
+
+@media screen and (max-width: 980px) {
+
+#masthead
+#logo
+#main-container {
+  width:100%;
+  color:rgb(56, 143, 6);
+}
+
+nav 
+nav a
+nav a:first-child {
+  width:100%;
+}
+
+footer {
+  width:100%;
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+
+#masthead
+#logo
+#main-container {
+    width:80%;
+    font-style: italic;
+    color:rgb(219, 27, 162);
+}
+
+nav 
+nav a
+nav a:first-child {
+  width:80%;
+}
+
+footer {
+  width:80%;
+}
+
+/*phone */
+@media screen and (max-width: 640px) {
+
+#masthead
+#logo
+#main-container {
+    width:60%;
+    font-style:bold;
+    color:rgb(40, 40, 247);
+}
+
+nav 
+nav a
+nav a:first-child {
+  width:60%;
+}
+
+footer {
+  width:60%;
 }
